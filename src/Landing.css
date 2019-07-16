@@ -1,0 +1,307 @@
+.item {
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+a {
+  text-decoration-line: none;
+  color: #406ddd;
+}
+#bigbody {
+  height: 2927px;
+  width: 100%;
+}
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  width: 260px;
+}
+.paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: left;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+/* Header begins HERE */
+#logo {
+  position: absolute;
+  width: 238px;
+  height: 32px;
+  left: 3.2%;
+  top: 31px;
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #6c8ddf;
+}
+#bold {
+  font-weight: 700;
+  color: #406ddd;
+}
+#hb {
+  position: absolute;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #406ddd;
+}
+#login {
+  position: absolute;
+  width: 92px;
+  left: 95%;
+  top: 32px;
+  border-radius: 5px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #406ddd;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* Header ends HERE */
+/* Body starts HERE */
+#main {
+  position: absolute;
+  width: 500px;
+  height: 140px;
+  top: 266px;
+  left: 17%;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  align-items: center;
+  color: #212121;
+}
+#main2 {
+  position: absolute;
+  width: 500px;
+  height: 98px;
+  top: 421px;
+  left: 17%;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  align-items: center;
+  color: #212121;
+}
+#button {
+  position: absolute;
+  width: 129px;
+  left: 17%;
+  top: 560px;
+  border-radius: 5px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  vertical-align: middle;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #406ddd;
+}
+.body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#arrow {
+  vertical-align: middle;
+  margin: 0 5px;
+}
+#gurutext {
+  position: absolute;
+  width: 400px;
+  height: 26px;
+  left: 17%;
+  top: 640px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  align-items: center;
+  color: #406ddd;
+}
+#cgi-person {
+  position: absolute;
+  width: 301px;
+  height: 314px;
+  left: 75%;
+  top: 330px;
+}
+/* Body ends HERE */
+/* Body2 starts HERE */
+.body1 {
+  width: 100%;
+  height: 100%;
+}
+#center {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 829px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  color: #212121;
+}
+#cgi-paper {
+  position: absolute;
+  left: 20%;
+  top: 960px;
+}
+#cgi-book {
+  position: absolute;
+  left: 50%;
+  top: 960px;
+}
+#cgi-cube {
+  position: absolute;
+  left: 80%;
+  top: 960px;
+}
+#cgi-study {
+  position: absolute;
+  width: 258px;
+  height: 212px;
+  left: 58%;
+  top: 1445px;
+}
+#cgi-teach {
+  position: absolute;
+  width: 263px;
+  height: 205px;
+  left: 22%;
+  top: 1940px;
+}
+/* Body2 ends HERE */
+/* Body3 starts HERE */
+#blueheader {
+  position: absolute;
+  width: 141px;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #6c8ddf;
+}
+#bluequote {
+  position: absolute;
+  width: 400px;
+  height: 101px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #212121;
+}
+#blueperson {
+  position: absolute;
+  width: 336px;
+  height: 23px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #212121;
+}
+#bluedesc {
+  position: absolute;
+  width: 352px;
+  height: 66px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+}
+#bluebutton {
+  position: absolute;
+  width: 210px;
+  top: 1720px;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  vertical-align: middle;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #406ddd;
+}
+/* Body3 ends HERE */
+/* Footer starts HERE */
+.footer {
+  position: absolute;
+  height: 221px;
+  top: 2927px;
+  width: 100%;
+  transform: translate(0%, -221px);
+  background: #fafafb;
+}
+#bottomhead {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  width: 155px;
+  top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 3px;
+  color: #212121;
+}
+/* Footer ends HERE */
