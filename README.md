@@ -1,4 +1,4 @@
-# peer-genius
+# Peer Genius Web App
 Made with ReactJS
 ### Files so far:
 - Landing page
