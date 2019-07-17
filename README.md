@@ -3,6 +3,7 @@ Made with ReactJS
 ### Files so far:
 - Landing page
 ### To build:
+- Make sure you have git, npm, and parcel installed (npm install parcel-bundler)
 - Clone the folder
 - Go into Terminal
 - ```cd FOLDERNAME```
