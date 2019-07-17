@@ -10,9 +10,9 @@ Made with ReactJS
 - ```npm start```
 - Go into the localhost URL the terminal window gives you.
 ### Issues
-- No icons for social media redirects in the footer of the page (will add 7/17)
-- Size constraints not fully functional for mobile and other platforms; tested on iMac 27-in 2017 model.
-- Login buttons overlap when at a skinnier resolution
-- Links are not functional yet
+- **7/16** No icons for social media redirects in the footer of the page (will add 7/17)
+- **7/16** Size constraints not fully functional for mobile and other platforms; tested on iMac 27-in 2017 model.
+- **7/16** Login buttons overlap when at a skinnier resolution
+- **7/16** Links are not functional yet
 ### More issues
 - Post in "Issues" tab
