@@ -3,6 +3,7 @@ Made with ReactJS
 ### Files so far:
 - Landing page
 ### To build:
+**Here is a link to a more comprehensive set-up guide. Simply opening the HTML file will not activate the other files as they need to be compiled first.**
 - Make sure you have git, npm, and parcel installed (npm install parcel-bundler)
 - Clone the folder
 - Go into Terminal
