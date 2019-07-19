@@ -1,8 +1,9 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class AboutUs extends React.Component {
   render() {
-    return <div>You've reached me successfully!</div>;
+    return <p>You've reached me!</p>;
   }
 }
 

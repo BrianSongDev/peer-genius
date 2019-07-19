@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import AboutUs from "./StaticLinks/AboutUs.js";
 class Landing extends React.Component {
   render() {
     return (
@@ -8,9 +9,9 @@ class Landing extends React.Component {
         </div> */}
         <div className="header">
           <h1 id="logo">
-            {/* <Link to={"../index.html"}> */}
-            PEER<span id="bold">GENIUS</span>
-            {/* </Link> */}
+            <a href="/">
+              PEER<span id="bold">GENIUS</span>
+            </a>
           </h1>
           <p
             id="hb"
@@ -21,9 +22,10 @@ class Landing extends React.Component {
               top: "42px"
             }}
           >
-            {/* <Link to="/StaticLinks/AboutUs.js"> */}
-            About Us
-            {/* </Link> */}
+            <Router>
+              <Link to="/AboutUs">About Us</Link>
+              <Route path="/AboutUs" component={AboutUs} />
+            </Router>
           </p>
           <p
             id="hb"
