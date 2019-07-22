@@ -1,20 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import AboutUs from "./StaticLinks/AboutUs.js";
 import { Switch } from "react-router";
 import Landing from "./Landing.js";
+import LogIn from "./StaticLinks/LogIn.js";
 
-class App extends React.Component {
+export default class MasterRouter extends React.Component {
   render() {
     return (
-      <div>
-        <Router>
+      <Router>
+        <Switch>
           <Route exact path="/" component={Landing} />
-          <Route exact path="/AboutUs" component={AboutUs} />
-        </Router>
-      </div>
+          <Route path="/LogIn" component={LogIn} />
+        </Switch>
+      </Router>
     );
   }
 }
-
-export default App;

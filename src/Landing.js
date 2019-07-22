@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import LogIn from "./StaticLinks/LogIn.js";
 import AboutUs from "./StaticLinks/AboutUs.js";
+import styles from "./Landing.css";
 class Landing extends React.Component {
   render() {
     return (
       <div id="bigbody">
-        {/* MOBILE INTEGRATION FOR SIZE CONSTRAINTS <div class="mobileShow">
-        </div> */}
         <div className="header">
           <h1 id="logo">
             <a href="/">
@@ -22,10 +22,7 @@ class Landing extends React.Component {
               top: "42px"
             }}
           >
-            <Router>
-              <Link to="/AboutUs">About Us</Link>
-              <Route path="/AboutUs" component={AboutUs} />
-            </Router>
+            <Link to="/AboutUs">About Us</Link>
           </p>
           <p
             id="hb"
@@ -39,9 +36,9 @@ class Landing extends React.Component {
             Sign Up
           </p>
           <p id="login">
-            {/* <Link to="/DynamicLinks/LogIn.js"> */}
-            LOG IN
-            {/* </Link> */}
+            <Link id="loginlink" to="/LogIn">
+              LOG IN
+            </Link>
           </p>
         </div>
         <div className="body">

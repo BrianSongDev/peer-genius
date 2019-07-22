@@ -76,8 +76,11 @@ h3 {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
   background: #406ddd;
+}
+
+#loginlink {
+  color: #ffffff;
 }
 .header {
   position: absolute;
