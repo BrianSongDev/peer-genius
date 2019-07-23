@@ -8,7 +8,10 @@ a {
 }
 #bigbody {
   height: 2927px;
-  width: 100%;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 1200px;
 }
 h3 {
   font-family: Roboto;
@@ -27,8 +30,6 @@ h3 {
   font-size: 14px;
   line-height: 23px;
   text-align: left;
-  left: 50%;
-  transform: translate(-50%, 0%);
 }
 /* Header begins HERE */
 #logo {
@@ -93,7 +94,7 @@ h3 {
   width: 500px;
   height: 140px;
   top: 266px;
-  left: 17%;
+  left: 0px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 48px;
@@ -106,7 +107,7 @@ h3 {
   width: 500px;
   height: 98px;
   top: 421px;
-  left: 17%;
+  left: 0%;
   font-family: Roboto;
   font-weight: 400;
   font-size: 20px;
@@ -117,7 +118,7 @@ h3 {
 #button {
   position: absolute;
   width: 129px;
-  left: 17%;
+  left: 0%;
   top: 560px;
   border-radius: 5px;
   padding-top: 11px;
@@ -135,7 +136,7 @@ h3 {
   background: #406ddd;
 }
 .body {
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 #arrow {
@@ -146,7 +147,7 @@ h3 {
   position: absolute;
   width: 400px;
   height: 26px;
-  left: 17%;
+  left: 0%;
   top: 640px;
   font-family: Roboto;
   font-style: normal;
@@ -166,14 +167,15 @@ h3 {
 /* Body ends HERE */
 /* Body2 starts HERE */
 .body1 {
+  position: relative;
   width: 100%;
-  height: 100%;
 }
 #center {
   position: absolute;
-  width: 100%;
+  left: 50%;
   height: 40px;
   top: 829px;
+  width: 500px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -183,19 +185,19 @@ h3 {
   text-align: center;
   color: #212121;
 }
-#cgi-paper {
-  position: absolute;
-  left: 20%;
-  top: 960px;
-}
 #cgi-book {
   position: absolute;
-  left: 50%;
+  left: 100px;
+  top: 960px;
+}
+#cgi-paper {
+  position: absolute;
+  left: 570px;
   top: 960px;
 }
 #cgi-cube {
   position: absolute;
-  left: 80%;
+  left: 1040px;
   top: 960px;
 }
 #cgi-study {

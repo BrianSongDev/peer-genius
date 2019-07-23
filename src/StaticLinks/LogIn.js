@@ -4,7 +4,7 @@ import logInStyles from "./Login.css";
 class LogIn extends React.Component {
   render() {
     return (
-      <div>
+      <div id="wrapper">
         <Link className="item" id="logo1" to="/">
           PEER<span id="bold">GENIUS</span>
         </Link>
@@ -18,6 +18,11 @@ class LogIn extends React.Component {
         <span id="rectangle1">
           <h1 id="emailField">Email</h1>
           <input type="text" id="inputField" />
+          <h1 id="emailField" style={{ top: "160px" }}>
+            Password
+          </h1>
+          <input type="password" id="inputField" style={{ top: "202px" }} />
+          <h1 id="forgotPassword">Forgot your password?</h1>
         </span>
       </div>
     );
