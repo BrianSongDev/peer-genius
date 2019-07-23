@@ -9,7 +9,7 @@ This guide may be too specific to be functional for every device, so this is mai
 - In cmd, "cd" into your preferred directory where you wish to install this project. 
 - In cmd, type "git clone https://github.com/BrianSongDev/peer-genius.git"
 - In cmd, "cd" into your folder containing the project you just cloned.
-- In cmd, type "npm start" and wait for npm to compile the files.
+- In cmd, type "npm start" and wait for npm to compile the files. **This may take up to 15 seconds, and if your spinner in cmd stops rotating during the process, press "ctrl + c" to terminate batch job and re-run 'npm start.'**
 - When it gives success and you are given a url, probably "localhost:1234," copy and paste that into your browser.
 - You should now be able to view the website.
 ## Mac:
