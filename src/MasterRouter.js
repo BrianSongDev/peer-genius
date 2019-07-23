@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Switch } from "react-router";
 import Landing from "./Landing.js";
 import LogIn from "./StaticLinks/LogIn.js";
+import AboutUs from "./StaticLinks/AboutUs.js";
 
 export default class MasterRouter extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export default class MasterRouter extends React.Component {
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/LogIn" component={LogIn} />
+          <Route path="/AboutUs" component={AboutUs} />
         </Switch>
       </Router>
     );
