@@ -79,7 +79,7 @@
   line-height: 16px;
   color: #000000;
 }
-#inputField {
+#text {
   position: absolute;
   width: 284px;
   height: 32px;
@@ -87,18 +87,62 @@
   top: 100px;
   border: 0.5px solid rgba(105, 105, 105, 0.5);
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 15px;
 }
+#password {
+  position: absolute;
+  width: 284px;
+  height: 32px;
+  left: 16.8%;
+  top: 182px;
+  border: 0.5px solid rgba(105, 105, 105, 0.5);
+  border-radius: 4px;
+  font-size: 15px;
+}
+
 #forgotPassword {
   position: absolute;
   width: 300px;
   height: 21px;
   left: 16.8%;
-  top: 240px;
+  top: 220px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 14px;
+  color: #406ddd;
+}
+#formSubmission {
+  position: absolute;
+  width: 280px;
+  left: 16.8%;
+  top: 280px;
+  border-radius: 5px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  background: rgba(64, 109, 221, 0.3);
+  color: #ffffff;
+}
+#noAccount {
+  position: absolute;
+  width: 300px;
+  height: 32px;
+  left: 15%;
+  top: 330px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  line-height: 15px;
   color: #406ddd;
 }
