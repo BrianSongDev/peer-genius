@@ -78,10 +78,18 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   background: #406ddd;
+  color: #ffffff;
 }
 
 #loginlink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
   color: #ffffff;
+  line-height: 32px;
 }
 .header {
   position: absolute;
@@ -554,9 +562,95 @@ h3 {
   left: 36px;
   border: 0.5px solid rgba(105, 105, 105, 0.5);
   border-radius: 4px;
-  font-size: 16px;
-  font-size: 15px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+#signUpText1 {
+  position: absolute;
+  width: 280px;
+  height: 32px;
+  left: 36px;
+  border: 0.5px solid rgba(105, 105, 105, 0.5);
+  border-radius: 4px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+#signUpText2 {
+  position: absolute;
+  width: 280px;
+  height: 32px;
+  left: 36px;
+  border: 0.5px solid rgba(105, 105, 105, 0.5);
+  border-radius: 4px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+#signUpText3 {
+  position: absolute;
+  width: 280px;
+  height: 32px;
+  left: 36px;
+  border: 0.5px solid rgba(105, 105, 105, 0.5);
+  border-radius: 4px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+#pass {
+  position: absolute;
+  width: 280px;
+  height: 32px;
+  left: 36px;
+  border: 0.5px solid rgba(105, 105, 105, 0.5);
+  border-radius: 4px;
+  font-size: 12px;
+  padding-left: 10px;
 }
 input:focus {
   outline: none;
+}
+#signUpNextButton {
+  position: absolute;
+  left: 72px;
+  right: 72px;
+  top: 711px;
+  height: 32px;
+  background: #406ddd;
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+}
+#selector {
+  position: absolute;
+  width: 278px;
+  height: 32px;
+  left: 38px;
+  top: 158px;
+  border: 0.5px solid rgba(105, 105, 105, 0.5);
+  border-radius: 4px;
+}
+#buttons {
+  position: absolute;
+  width: 91.34px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 3.8px 0 0 3.8px;
+}
+input:checked + label {
+  background: #406ddd;
+}
+input {
+  visibility: hidden;
+}
+label {
+  cursor: pointer;
 }
