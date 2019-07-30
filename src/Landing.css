@@ -325,6 +325,7 @@ h3 {
   background: rgba(240, 243, 249, 0.5);
 }
 #activatedCard2 {
+  opacity: 0.6;
   position: absolute;
   width: 352px;
   height: 800px;
@@ -333,6 +334,7 @@ h3 {
   background: white;
 }
 #activatedCard3 {
+  opacity: 0.6;
   position: absolute;
   width: 352px;
   height: 800px;
@@ -628,9 +630,18 @@ input:focus {
   border: 0.5px solid rgba(105, 105, 105, 0.5);
   border-radius: 4px;
 }
-#buttons {
+#gradeSelector {
   position: absolute;
-  width: 91.34px;
+  width: 278px;
+  height: 32px;
+  left: 38px;
+  top: 158px;
+  border: 0.5px solid rgba(105, 105, 105, 0.5);
+  border-radius: 4px;
+}
+#buttons1 {
+  position: absolute;
+  width: 93px;
   height: 31px;
   left: 0px;
   top: 0px;
@@ -645,11 +656,73 @@ input:focus {
   background: #ffffff;
   border-radius: 3.8px 0 0 3.8px;
 }
+#buttons {
+  position: absolute;
+  width: 93px;
+  height: 31px;
+  left: 93px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 0;
+}
+#buttons2 {
+  position: absolute;
+  width: 93px;
+  height: 31px;
+  left: 186px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 0;
+}
+#subjectsneedhelpwith {
+  position: absolute;
+  width: 280px;
+  height: 32px;
+  left: 36px;
+  top: 159px;
+  border: 0.5px solid rgba(105, 105, 105, 0.5);
+  border-radius: 4px;
+}
+input + label {
+  border-radius: 3.8px 0 0 3.8px;
+  height: 31px;
+  width: 93px;
+  left: 0px;
+  box-sizing: border-box;
+  position: absolute;
+  display: inline-block;
+  border: solid 1px #ddd;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  color: blue;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 6px;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  transition: border-color 0.15s ease-out, color 0.25s ease-out,
+    background-color 0.15s ease-out, box-shadow 0.15s ease-out;
+}
 input:checked + label {
   background: #406ddd;
-}
-input {
-  visibility: hidden;
+  color: #ffffff;
 }
 label {
   cursor: pointer;

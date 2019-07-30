@@ -7,10 +7,9 @@ Made with ReactJS
 - Landing page
 - Login page
 
-### To build:
+### Some notes recorded during development:
 
-- Signup page
-- About Us page
+- For the signup page, I decided to maintain minimal changes in Div 3 when different "I want to join Peer Genius as a(n)" responses. This was to minimize confusion, save lines of code, and be more convenient. For example, for joining as an admin, state "admin" would be passed but there would not be a "verify your email" portion replacing the "school" and "grade level" portion. The "verify your email" would show up after for every single person signing up regardless of who he/she is signing up as.
 
 **Here is a link to a more comprehensive set-up guide. Simply opening the HTML file will not activate the other files as they need to be compiled first.** [Link](https://github.com/BrianSongDev/peer-genius/blob/master/setup.md)
 
