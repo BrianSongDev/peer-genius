@@ -4,15 +4,11 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class SignUp extends React.Component {
   constructor(props) {
     super(props);
-    this.setState({
-      isAdmin: false
-    });
     this.handleConsciousness = this.handleConsciousness.bind(this);
     this.disableDiv1AndUnlockDiv2 = this.disableDiv1AndUnlockDiv2.bind(this);
     this.disableDiv2AndUnlockDiv3 = this.disableDiv2AndUnlockDiv3.bind(this);
     this.disableDiv2 = this.disableDiv2.bind(this);
     this.disableDiv3 = this.disableDiv3.bind(this);
-    this.handleAdmin = this.handleAdmin.bind(this);
   }
   handleConsciousness(a) {
     const b = a.target.id;
@@ -22,11 +18,6 @@ class SignUp extends React.Component {
       document.getElementById(b).style.border =
         "0.5px solid rgba(105, 105, 105, 0.5)";
     }
-  }
-  handleAdmin() {
-    alert(
-      "If you are signing up for an Admin, please fill out the next two fields with school 0000 and grade 6. Thank you for your cooperation."
-    );
   }
   disableDiv2() {
     const c = document
@@ -219,27 +210,35 @@ class SignUp extends React.Component {
                   textAlign: "center"
                 }}
               />
-              <label htmlFor="buttons1" style={{ left: "0px" }}>
+              <label
+                htmlFor="buttons1"
+                style={{ left: "0px", width: "139px" }}
+                onClick={
+                  (document.getElementsByClassName("descripp").innerHTML =
+                    "What subjects do you need help with?")
+                }
+              >
                 Newbie
               </label>
-              <input id="buttons" type="radio" name="selectorSet" />
+              <input
+                id="buttons"
+                type="radio"
+                name="selectorSet"
+                style={{ display: "none" }}
+              />
               <label
                 htmlFor="buttons"
-                style={{ left: "93px", width: "93px", borderRadius: "0" }}
+                style={{
+                  left: "139px",
+                  width: "138px",
+                  borderRadius: "0 3.8px 3.8px 0"
+                }}
+                onClick={
+                  (document.getElementsByClassName("descripp").innerHTML =
+                    "What subjects can you tutor?")
+                }
               >
                 Guru
-              </label>
-              <input id="buttons2" type="radio" name="selectorSet" />
-              <label
-                htmlFor="buttons2"
-                style={{
-                  left: "186px",
-                  borderRadius: "0 3.8px 3.8px 0",
-                  width: "91px"
-                }}
-                onClick={this.handleAdmin}
-              >
-                Admin
               </label>
             </span>
 
@@ -336,15 +335,71 @@ class SignUp extends React.Component {
           </div>
           <div id="activatedCard3">
             <span id="stepText">3. Customize your learning</span>
-            <span id="descriptionLevel1">
+            <span id="descriptionLevel1" className="descripp">
               What subjects do you need help with?
             </span>
-            <span id="subjectsneedhelpwith">Mathematics</span>
+            <input id="11" type="checkbox" name="selectorSet2" />
+            <label
+              htmlFor="11"
+              style={{
+                borderRadius: "3.8px 3.8px 3.8px 3.8px",
+                left: "36px",
+                top: "159px",
+                width: "280px"
+              }}
+            >
+              Mathematics
+            </label>
+            <input id="12" type="checkbox" name="selectorSet2" />
+            <label
+              htmlFor="12"
+              style={{
+                borderRadius: "3.8px 3.8px 3.8px 3.8px",
+                left: "36px",
+                top: "203px",
+                width: "280px"
+              }}
+            >
+              Language Arts
+            </label>
+            <input id="13" type="checkbox" name="selectorSet2" />
+            <label
+              htmlFor="13"
+              style={{
+                borderRadius: "3.8px 3.8px 3.8px 3.8px",
+                left: "36px",
+                top: "247px",
+                width: "280px",
+                border: "solid 1px #ddd"
+              }}
+            >
+              Social Sciences
+            </label>
+            <input id="14" type="checkbox" name="selectorSet2" />
+            <label
+              htmlFor="14"
+              style={{
+                borderRadius: "3.8px 3.8px 3.8px 3.8px",
+                left: "36px",
+                top: "291px",
+                width: "280px"
+              }}
+            >
+              Science
+            </label>
+            <h1 id="largeText">You're all set. :)</h1>
+            <h1 id="signUpNextButton" style={{ cursor: "pointer" }}>
+              <span
+                id="loginlink"
+                style={{ fontWeight: "normal", fontSize: "14px" }}
+              >
+                Take me to my dashboard!
+              </span>
+            </h1>
           </div>
         </div>
       </div>
     );
   }
 }
-
 export default SignUp;

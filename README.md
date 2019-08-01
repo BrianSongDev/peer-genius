@@ -27,6 +27,7 @@ Made with ReactJS
 - **7.16** Header buttons overlap when at a skinnier resolution
 - **7.16** Links are not functional yet **FIXED 7.24**
 - **7.23** Constraint locking for width of 1056 px **FIXED 7.23**
+- **8.1** An issue popped up with dynamically changing the element of class name "descripp" in the SignUp page. My attempts to change the text were in lines 216-219 and in lines 236-239.
 
 ### More issues
 
