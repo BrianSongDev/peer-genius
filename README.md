@@ -6,10 +6,14 @@ Made with ReactJS
 
 - Landing page
 - Login page
+- Signup page
 
 ### Some notes recorded during development:
 
-- For the signup page, I decided to maintain minimal changes in Div 3 when different "I want to join Peer Genius as a(n)" responses. This was to minimize confusion, save lines of code, and be more convenient. For example, for joining as an admin, state "admin" would be passed but there would not be a "verify your email" portion replacing the "school" and "grade level" portion. The "verify your email" would show up after for every single person signing up regardless of who he/she is signing up as.
+- Code may be a bit messy: with the implementation of multiple CSS files rather than just one, I observed test runs where the second CSS file wouldn't load. I'm not sure why this happens, which is why I compiled all the CSS code in my main file.
+- My code may need a bit of refractoring and some necessary functions might not be so "necessary."
+- Some size constraints were used solely based on judgement (i.e. not percentages but rather "this looks about 50%") because there were some text-align issues.
+- Need help on issue found on 8.1
 
 **Here is a link to a more comprehensive set-up guide. Simply opening the HTML file will not activate the other files as they need to be compiled first.** [Link](https://github.com/BrianSongDev/peer-genius/blob/master/setup.md)
 
