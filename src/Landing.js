@@ -47,7 +47,7 @@ class Landing extends React.Component {
             </p>
             <Link to="/SignUp">
               <p id="button">
-                SIGN UP <img id="arrow" src={require("../arrow.png")} />
+                SIGN UP <img id="arrow" src={require("../public/arrow.png")} />
               </p>
             </Link>
             <Link to="/SignUp">
@@ -59,16 +59,16 @@ class Landing extends React.Component {
             <img
               id="cgi-person"
               className="item"
-              src={require("../cgi-person.png")}
+              src={require("../public/cgi-person.png")}
             />
           </div>
           <div className="body1">
             <h1 id="center" className="item">
               How Peer Genius works
             </h1>
-            <img id="cgi-paper" src={require("../cgi-paper.png")} />
-            <img id="cgi-book" src={require("../cgi-book.png")} />
-            <img id="cgi-cube" src={require("../cgi-cube.png")} />
+            <img id="cgi-paper" src={require("../public/cgi-paper.png")} />
+            <img id="cgi-book" src={require("../public/cgi-book.png")} />
+            <img id="cgi-cube" src={require("../public/cgi-cube.png")} />
             <h3 style={{ left: "0%", position: "absolute", top: "1060px" }}>
               Newbies get high quality tutoring for free
             </h3>
@@ -142,7 +142,7 @@ class Landing extends React.Component {
                 Get started as a newbie
               </p>
             </Link>
-            <img id="cgi-study" src={require("../cgi-study.png")} />
+            <img id="cgi-study" src={require("../public/cgi-study.png")} />
 
             <h1 id="blueheader" style={{ left: "55%", top: "1780px" }}>
               GURUS
@@ -168,7 +168,7 @@ class Landing extends React.Component {
                 Get started as a guru
               </p>
             </Link>
-            <img id="cgi-teach" src={require("../cgi-teach.png")} />
+            <img id="cgi-teach" src={require("../public/cgi-teach.png")} />
 
             <h1 id="center" className="item" style={{ top: "2360px" }}>
               Join Peer Genius today
