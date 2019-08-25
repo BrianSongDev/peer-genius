@@ -1,4 +1,4 @@
-# Peer Genius Web App
+# Peer Genius Web App (1.0)
 
 Made with ReactJS
 
