@@ -31,3 +31,6 @@ Parcel has a few issues (include CSS compilation success) but it will work for n
 ### More issues
 
 - Post in "Issues" tab
+
+### Link to draw.io
+https://drive.google.com/file/d/18szZoZwlKalfPn66ziDu7zZ_QZa1g5RL/view?usp=sharing
