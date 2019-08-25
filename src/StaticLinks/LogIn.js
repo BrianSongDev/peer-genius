@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class LogIn extends React.Component {
   constructor(props) {
     super(props);
+    this.checkIfBlank = this.checkIfBlank.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
     this.state = {
       isDisabled: true
     };
   }
-  checkIfBlank = () => {
+  checkIfBlank() {
     if (
       document.getElementById("text").value != "" &&
       document.getElementById("password").value != ""
@@ -20,7 +22,8 @@ class LogIn extends React.Component {
         "rgba(64, 109, 221, 0.3)";
     }
   }
-  handleSubmit = () => { // Link to backend here for logging in
+  handleSubmit() {
+    // console.log("yoooo");
   }
   render() {
     return (
