@@ -1,6 +1,6 @@
 # Peer Genius Web App (1.0)
 
-Made with ReactJS
+Made with ReactJS and MySQL
 
 ### Files so far:
 
@@ -8,12 +8,7 @@ Made with ReactJS
 - Login page
 - Signup page
 
-### Some notes recorded during development:
-
-- Code may be a bit messy: with the implementation of multiple CSS files rather than just one, I observed test runs where the second CSS file wouldn't load. I'm not sure why this happens, which is why I compiled all the CSS code in my main file.
-- My code may need a bit of refractoring and some necessary functions might not be so "necessary."
-- Some size constraints were used solely based on judgement (i.e. not percentages but rather "this looks about 50%") because there were some text-align issues.
-- Need help on issue found on 8.1
+Parcel has a few issues (include CSS compilation success) but it will work for now. Looking into webpack.
 
 **Here is a link to a more comprehensive set-up guide. Simply opening the HTML file will not activate the other files as they need to be compiled first.** [Link](https://github.com/BrianSongDev/peer-genius/blob/master/setup.md)
 
