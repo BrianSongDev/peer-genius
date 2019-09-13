@@ -1,20 +1,7 @@
-[Fri, 16 Aug 2019 23:09:33 GMT] Server handling error!
+[Tue, 20 Aug 2019 20:57:24 GMT] Server handling error!
 Error message:
-TypeError: Cannot read property 'name' of null
+Error: ENOENT: no such file or directory, stat '/Users/TonyWang/Documents/peer-genius-v2/public/index.html'
 Stacktrace;
-TypeError: Cannot read property 'name' of null
-    at Object.<anonymous> (/Users/TonyWang/Documents/Peer-Genius/server/router/functions/schedule.ts:115:57)
-    at Generator.next (<anonymous>)
-    at fulfilled (/Users/TonyWang/Documents/Peer-Genius/server/router/functions/schedule.ts:4:58)
+Error: ENOENT: no such file or directory, stat '/Users/TonyWang/Documents/peer-genius-v2/public/index.html'
 Request details:
-{
-	"course": "",
-	"assignment": "CS161",
-	"time": "2019-08-16T23:09:15.444Z",
-	"duration": "120min",
-	"user": {
-		"id": "d01913df-feea-4e9a-82c9-641f43f9d87e",
-		"iat": 1565989625,
-		"exp": 1566069625
-	}
-}
+{}

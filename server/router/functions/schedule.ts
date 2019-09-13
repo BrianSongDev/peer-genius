@@ -135,7 +135,7 @@ interface GetPastSessionsRequest extends VerifiedRequest {
 export const getPastSessions: AsyncHandler<GetPastSessionsRequest> = async (request, response) => {
 	let pastSessions = await models.session.findAll({
 		where: {
-			newbieId: request.body.user.id,
+			guruId: request.body.user.id,
 			scheduledStart: {
 				$lt: new Date()
 			}
