@@ -4,13 +4,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class SignUp extends React.Component {
   constructor(props) {
     super(props);
-    this.handleConsciousness = this.handleConsciousness.bind(this);
-    this.disableDiv1AndUnlockDiv2 = this.disableDiv1AndUnlockDiv2.bind(this);
-    this.disableDiv2AndUnlockDiv3 = this.disableDiv2AndUnlockDiv3.bind(this);
-    this.disableDiv2 = this.disableDiv2.bind(this);
-    this.disableDiv3 = this.disableDiv3.bind(this);
   }
-  handleConsciousness(a) {
+  handleConsciousness = (a) => {
     const b = a.target.id;
     if (document.getElementById(b).value != "") {
       document.getElementById(b).style.border = "1px solid #406ddd";
@@ -19,7 +14,7 @@ class SignUp extends React.Component {
         "0.5px solid rgba(105, 105, 105, 0.5)";
     }
   }
-  disableDiv2() {
+  disableDiv2 = () => {
     const c = document
       .getElementById("activatedCard2")
       .getElementsByTagName("input");
@@ -35,7 +30,7 @@ class SignUp extends React.Component {
       d[k].disabled = true;
     }
   }
-  disableDiv3() {
+  disableDiv3 = () => {
     const c = document
       .getElementById("activatedCard3")
       .getElementsByTagName("input");
@@ -51,7 +46,7 @@ class SignUp extends React.Component {
       d[k].disabled = true;
     }
   }
-  disableDiv1AndUnlockDiv2() {
+  disableDiv1AndUnlockDiv2 = () => {
     if (
       // Check if they are empty or not; if empty, send an alert reminding user to fill out everything
       document.getElementById("signUpText").value != "" &&
@@ -92,7 +87,7 @@ class SignUp extends React.Component {
       alert("Please fill in all the fields before moving on.");
     }
   }
-  disableDiv2AndUnlockDiv3() {
+  disableDiv2AndUnlockDiv3 = () => {
     let setChecked = document.querySelector(
       'input[name = "selectorSet"]:checked'
     );
@@ -207,7 +202,8 @@ class SignUp extends React.Component {
                 style={{
                   width: "93px",
                   height: "31px",
-                  textAlign: "center"
+                  textAlign: "center",
+                  display: "none"
                 }}
               />
               <label
